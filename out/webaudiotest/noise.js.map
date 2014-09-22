@@ -1,0 +1,7 @@
+{"version":3,
+ "file":
+ "/home/przemek/Documents/clojure_rozne/webaudiotest/out/webaudiotest/noise.js",
+ "sources":["noise.cljs"],
+ "lineCount":6,
+ "mappings":";AAAA;;AAGA,AAACA",
+ "names":["cljs.core/enable-console-print!"]}

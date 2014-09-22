@@ -1,0 +1,26 @@
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Neither idiomatic nor dogmatic</title>
+  <meta name="description" content="Przemysław Sanecki">
+  <meta name="author" content="Przemysław Sanecki">
+
+ <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+<!-- <script src="js/scripts.js"></script> -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  	Przemysław Sanecki ur. 1977, performer i muzyk.
+	zamieszkały w Edynburgu (UK) i Poznaniu (PL).
+ 
+</body>
+</html>
+
+
