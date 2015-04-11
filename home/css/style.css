@@ -1,0 +1,37 @@
+#showreel {
+    border-color: red;
+    border-width: 4px;
+    padding: 0, 50px, 0, 50px;
+    background-color: black;
+}
+div.slideshow  {
+    /* border-color: red; */
+    /* border-width: 1px; */
+    width: 90%;
+    margin: auto;
+
+    background-color: black;
+}
+header {
+    margin: auto 25% auto 25%;
+    width: 50%;
+}
+
+header img {
+    margin: auto 25% auto 25%;
+}
+header h1 {
+    margin: auto 10% auto 10%;
+}
+
+nav {
+    margin: auto 25% auto 25%;
+}
+
+
+section {
+    border-color: red;
+    border-width: 1px;
+    margin: auto 25% 25% 25%;
+    width: 50%;
+}
