@@ -1,0 +1,32 @@
+body {
+    background-color: #eee;
+    padding: 0px;
+    margin: 0px;
+}
+
+article {
+    position: relative;
+    width: 50%;
+    margin: 2em auto;
+    border: dotted blue 2px;
+}
+
+#headmenu {
+    position: fixed;
+    width: 50%;
+    margin: 2em auto;
+}
+
+.tohide {
+    display: none;
+}
+.toshow {
+
+}
+
+
+section {
+    border: dotted red 2px;
+
+    background-color: white;
+}
