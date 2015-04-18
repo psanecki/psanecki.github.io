@@ -94,7 +94,7 @@ nav {
 .menuItem {
     display: table-cell;
     /* float: left; */
-    width: 33%;
+    width: auto;
     margin: 0 auto 0 auto;
     /* border: dashed 1px blue; */
     text-align: center;
