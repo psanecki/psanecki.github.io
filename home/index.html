@@ -5,7 +5,7 @@
         <title>PRZEMYSLAW SANECKI</title>
 
         <!-- styles -->
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
         <link rel="stylesheet" type="text/css" href="css/font.css" />
 
         <!-- js libraries -->
@@ -19,7 +19,7 @@
         <script type="text/javascript" src="js/jquery.sticky.js" ></script>
     </head>
     <body>
-      <article>
+
         <div id="headmenu" >
             <header id="logo"><!--
                     <figure id="logo">
@@ -29,13 +29,13 @@
             </header>
             <div id="menu" >
                 <nav>
-                    <span class="menuItem"><a href="#works" >WORKS</a> </span>
-                    <span class="menuItem"><a href="#data" >DATA</a></span>
-                    <span class="menuItem"><a href="#contact" >CONTACT </a></span>
+                    <span class="menuItem"><a href="#headmenu" data-target="#works" >WORKS</a> </span>
+                    <span class="menuItem"><a href="#headmenu" data-target="#data" >DATA</a></span>
+                    <span class="menuItem"><a href="#headmenu" data-target="#contact" >CONTACT </a></span>
                 </nav>
             </div>
         </div>
-
+        <article id="main">
             <section id="works" class="toshow">
                 <!-- <button type="button" class="prev">Previous</button> -->
                 <div class="slideshow">
@@ -85,11 +85,12 @@
 
             <h2>Professional</h2>
             <p>
-              He debuted in 1999 with a performance in Entropia Gallery, Wroclaw, PL.
-              Since then he is active in many fields of fine arts. His works range from intence body art performance through experimental electronics and live coding practise to novel use of artificial intelligence as medium of art. </p>
+              He debuted in 1999 with a performance in Entropia Gallery, Wroclaw, PL.</p>
+              <p>Since then he is active in many fields of fine arts. His works range from intence body art performance through experimental electronics and live coding practise to novel use of artificial intelligence as medium of art. </p>
                 <p>
-                  His works have been presented both solo and on ocassion of group shows in many art institutions and festivals in Poland, Europe and USA, including Slingshot Festival, Zacheta National Gallery of Art, CSW Ujazdowski Castel, Galeria Stereo, Galeria Entropia, Galeria Start, Sainsbury Centre for Visual Arts in Norwich, and Kunst-Werke in Berlin.
+                  His works have been presented both solo and on ocassion of group shows in many art institutions and festivals in Poland, Europe and USA, including Slingshot Festival, Galeria Stereo, Galeria Entropia, Zacheta National Gallery of Art, CSW Ujazdowski Castel, Galeria Start, Sainsbury Centre for Visual Arts in Norwich, and Kunst-Werke in Berlin.
             </p>
+
             <!-- <p> -->
             <!--   He is also -->
             <!-- </p> -->
@@ -98,7 +99,12 @@
         <section id="contact" class="tohide" >
 
             <!-- <h1>Contact</h1> -->
-            <p id="mail">przemyslaw dot sanecki at gmail dot com</p>
+            <p id="mail">
+              przemyslaw.sanecki@gmail.com <br/>
+              twitter.com/p_sanecki<br/>
+              quitter.is/psanecki<br/>
+
+            </p>
 
 
 
@@ -107,6 +113,10 @@
 
 
         </article>
+
+        <!-- <footer> -->
+        <!--   footer -->
+        <!-- </footer> -->
 
         <!-- script -->
         <script type="text/javascript" src="js/script.js"></script>
