@@ -100,7 +100,7 @@ nav {
     text-align: center;
     /* padding: 1em 1em; */
 }
-span.menuItem a {
+a {
     color: black;
     text-decoration:none;
     /* border: dashed 1px blue; */
@@ -140,6 +140,9 @@ span.menuItem a:active {
 
 }
 
+section a {
+    text-decoration: none;
+}
 
 #mail {
     text-align: center;
