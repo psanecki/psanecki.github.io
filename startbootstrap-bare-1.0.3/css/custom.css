@@ -54,3 +54,22 @@ body {
 .navbar-new .navbar-toggle .icon-bar {
     background-color: black;
 }
+
+/* home page image */
+.homepageimg {
+  height:776px;
+  background-size: 100%;
+  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('../img/poster_2.png');
+    }
+
+/* @media only screen and (max-width: 767px){ */
+/* .background-image { */
+/*   height: 200px; */
+/* }}
+ */
