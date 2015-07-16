@@ -55,6 +55,20 @@ body {
     background-color: black;
 }
 
+
+/* dropdown */
+.dropdown-menu-new > li > a {
+    color: black;
+}
+
+.dropdown-menu-new > li > a:hover,
+.dropdown-menu-new > li > a:focus {
+    background-color: #435543;
+    color: white;
+}
+
+
+
 /* home page image */
 .homepageimg {
   height:776px;
