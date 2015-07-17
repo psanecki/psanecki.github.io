@@ -3,10 +3,22 @@ body {
     padding-top: 70px;
 }
 
+.works {
+    margin-top: 2em;
+}
 .navbar {
     border-radius: 5px;
 }
 
+.zawartosc {
+    margin-bottom: 2em;
+}
+.tsotwoa {
+    margin-bottom: 2em;
+}
+.tsotwoa-opis {
+    margin-top: 1em;
+}
 
 
 .navbar-new {
@@ -61,8 +73,12 @@ body {
     color: black;
 }
 
-.dropdown-menu-new > li > a:hover,
-.dropdown-menu-new > li > a:focus {
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+    color: black;
+    background-color: white;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
     background-color: #435543;
     color: white;
 }
