@@ -1,5 +1,6 @@
 body {
-    font-family: 'quicksandregular';
+    font-family: 'Inconsolata-Regular';
+    /* font-family: 'quicksandregular'; */
     padding-top: 70px;
 }
 
@@ -30,7 +31,8 @@ body {
 .navbar-new .navbar-brand,
 .navbar-new .navbar-brand:hover,
 .navbar-new .navbar-brand:focus {
-    font-family: 'nemoymedium';
+    font-family: 'Inconsolata-Bold';
+    /* font-family: 'nemoymedium'; */
     color: black;
 }
 
