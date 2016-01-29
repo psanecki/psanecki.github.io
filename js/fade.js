@@ -13,9 +13,11 @@ $(document).ready(function() {
     
     $("a").click(function(event){
 	event.preventDefault();
-	
+
 	linkLocation = this.href;
-	    if(linkLocation.endsWith( "#")){
+	//window.alert(linkLocation);
+	if(linkLocation.endsWith( "#") ||
+	  linkLocation === "../index.html"){
 		$(coMaZniknac).fadeIn(0);
 	    } else {
 		$(coMaZniknac).fadeOut(500, redirectPage);
