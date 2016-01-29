@@ -1,10 +1,10 @@
 var coMaZniknac = ".zawartosc"
 
 
-window.onbeforeunload = function() {
-     $(coMaZniknac).fadeOut(0);
-    //$(coMaZniknac).fadeIn(0);
-};
+// window.onbeforeunload = function() {
+//      $(coMaZniknac).fadeOut(0);
+//     //$(coMaZniknac).fadeIn(0);
+// };
 
 $(document).ready(function() {
     $(coMaZniknac).css("display", "none");
