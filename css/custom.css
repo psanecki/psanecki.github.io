@@ -108,6 +108,9 @@ img {
     max-width: 100%;
 }
 
+.navbar-brand img {
+  margin: -2px;
+}
 
 /* @media only screen and (max-width: 767px){ */
 /* .background-image { */
