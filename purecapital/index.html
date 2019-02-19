@@ -14,78 +14,27 @@
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/font.css" rel="stylesheet">
   <link href="../css/custom.css" rel="stylesheet">
+  <link rel="import" href="../navbar.html">
   <!-- Custom CSS -->
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
 </head>
+
 <body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-inverse navbar-fixed-top navbar-new"
-  role="navigation">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle=
-        "collapse" data-target=
-        "#bs-example-navbar-collapse-1"><span class=
-        "sr-only">Toggle navigation</span></button> <a class=
-        "navbar-brand" href="../index.html"><img src=
-        "../img/swastika.gif" alt="PRZEMYSLAW SANECKI"></a>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id=
-      "bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <!-- <li> -->
-          <!--   <a href="#">The Storm That Shelters the Carnival...</a> -->
-          <!-- </li> -->
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle=
-            "dropdown" role="button" aria-haspopup="true"
-            aria-expanded="false">WORKS</a>
-            <ul class="dropdown-menu dropdown-menu-new">
-              <li>
-                <a href="../ib/index.html">Impossible Bodies</a>
-              </li>
-              <li>
-                <a href="../queen/index.html">Queen of the
-                Dream</a>
-              </li>
-              <li>
-                <a href="#">Pure Capital</a>
-              </li>
-              <li>
-                <a href="../thestorm">The Storm That Shelters the
-                Carnival...</a>
-              </li>
-              <li>
-                <a href="../thesource/index.html">The Source of the
-                Work of Art</a>
-              </li>
-              <li>
-                <a href=
-                "../inarchitectonic/index.html">Inarchitectonic</a>
-              </li>
-              <li>
-                <a href="../works/index.html">Old works & music</a>
-              </li>
-              <!-- <li><a href="../pub/index.html">Publications & press</a></li> -->
-            </ul>
-          </li><!-- <li>
-                     <a href="../bio/index.html">Bio</a>
-                </li> -->
-          <li>
-            <a href="../contact/index.html">CONTACT 
-            <!-- <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> --></a>
-          </li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container -->
-  </nav><!-- Page Content -->
+    <script>
+     var link = document.querySelector('link[rel="import"]');
+     var content = link.import;
+     var el = content.querySelector('#main-navbar');
+     document.body.appendChild(el.cloneNode(true));
+    </script>
+
+<!-- Page Content -->
   <div class="container zawartosc">
     <div class="row tsotwoa-opis">
       <div class="col-lg-8">
