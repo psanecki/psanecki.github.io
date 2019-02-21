@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
   <meta name="generator" content=
   "HTML Tidy for HTML5 for Linux version 5.2.0">
@@ -14,7 +14,8 @@
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/font.css" rel="stylesheet">
   <link href="../css/custom.css" rel="stylesheet">
-  <link rel="import" href="../navbar.html">
+  <script src="../js/jquery-3.3.1.min.js"></script> 
+  <!--<script src="../js/jquery.js"></script> -->
   <!-- Custom CSS -->
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -27,14 +28,12 @@
 </head>
 
 <body>
+    <template><div></div></template>
+    <div id="navbar-host"></div> 
     <script>
-     var link = document.querySelector('link[rel="import"]');
-     var content = link.import;
-     var el = content.querySelector('#main-navbar');
-     document.body.appendChild(el.cloneNode(true));
-    </script>
-
-<!-- Page Content -->
+     $(() => $("#navbar-host").load("../components/navbar.html"));
+    </script> 
+  <!-- Page Content -->
   <div class="container zawartosc">
     <div class="row tsotwoa-opis">
       <div class="col-lg-8">
@@ -84,8 +83,6 @@
     </div><!-- /.row -->
   </div><!-- /.container -->
   <!-- jQuery Version 1.11.1 -->
-  <script src="../js/jquery.js">
-  </script> 
   <script src="../js/fade.js">
   </script> <!-- Bootstrap Core JavaScript -->
    
