@@ -3,6 +3,8 @@ body {
     /*font-family: 'cantarellregular';*/
     font-family: 'Inconsolata-Regular';
     padding-top: 70px;
+    background-color: #e5fcf2;
+    background-image: repeating-linear-gradient(0deg, #fafafa, #fafafa 1px, white 2px, white 4px);
 }
 
 .works {
