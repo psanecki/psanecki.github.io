@@ -13,7 +13,7 @@
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/font.css" rel="stylesheet">
   <link href="../css/custom.css" rel="stylesheet">
-  <!-- Custom CSS -->
+  <script src="../js/jquery-3.3.1.min.js"></script> 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -22,83 +22,19 @@
   <![endif]-->
 </head>
 <body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-inverse navbar-fixed-top navbar-new"
-  role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle=
-      "collapse" data-target=
-      "#bs-example-navbar-collapse-1"><span class=
-      "sr-only">Toggle navigation</span></button> <a class=
-      "navbar-brand" href="../index.html"><img src=
-      "../img/swastika.gif" alt="PRZEMYSLAW SANECKI"></a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id=
-    "bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav">
-      <!-- <li> -->
-      <!--   <a href="#">The Storm That Shelters the Carnival...</a> -->
-      <!-- </li> -->
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle=
-        "dropdown" role="button" aria-haspopup="true"
-        aria-expanded="false">WORKS</a>
-        <ul class="dropdown-menu dropdown-menu-new">
-          <li>
-            <a href="../ib/index.html">Impossible Bodies</a>
-          </li>
-          <li>
-            <a href="../queen/index.html">Queen of the
-              Dream</a>
-            </li>
-            <li>
-              <a href="../purecapital/index.html">Pure
-                Capital</a>
-              </li>
-              <li>
-                <a href="../thestorm/index.html">The Storm That
-                  Shelters the Carnival...</a>
-                </li>
-                <li>
-                  <a href="../thesource/index.html">The Source of the
-                    Work of Art</a>
-                  </li>
-                  <li>
-                    <a href=
-                    "../inarchitectonic/index.html">Inarchitectonic</a>
-                  </li>
-                  <li>
-                    <a href="../works/index.html">Old works & music</a>
-                  </li>
-                  <!-- <li><a href="../pub/index.html">Publications & press</a></li> -->
-                </ul>
-              </li><!-- <li>
-                <a href="../bio/index.html">Bio</a>
-              </li> -->
-              <li>
-                <a href="#">CONTACT
-                  <!-- <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> --></a>
-                </li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container -->
-        </nav><!-- Page Content -->
+    <!-- Navigation -->
+    <div id="navbar-host"></div>
+    <script>
+     $(() => $("#navbar-host").load("../components/navbar.html"));
+    </script>
+
+<!-- Page Content -->
         <div class="container zawartosc" style="margin-top: 1em">
           <div class="row" style="margin-top: 1.5em">
             <div class="col-lg-6">
               <p><strong>Przemyslaw Sanecki</strong> (b.1977, PL) is a
-                multidisciplinary code artist in the domains of vision,
+                multidisciplinary artist in the domains of vision,
                 sound and performance. </br>
-                His area of interest includes inteligent machines, fintech,
-                tangible software, data ecstatics and computational art.</br>
-                His latest works play with digital aesthetic regimes and exist as a bespoke software.</br>
-                <p>
-                He holds Doctor of Arts degree from University of Arts in Poznan (PL).</br>
-                He has exhibited worldwide, including ADAF (Athens, GR), MADAC (Madrid, ES) Pixel (Bergen, NO), Amro (Linz, AT),
-                Slingshot (Athens, US), CSW Zamek Ujazdowski (Warsaw, PL), Galeria Stereo (Warsaw, PL). </br  >
                 He is currently based in London, UK.
               </p>
               </div>
@@ -120,12 +56,9 @@
               </div>
             </div>
           </div><!-- /.container -->
-          <!-- jQuery Version 1.11.1 -->
-          <script src="../js/jquery.js">
           </script>
           <script src="../js/fade.js">
           </script> <!-- Bootstrap Core JavaScript -->
-
           <script src="../js/bootstrap.min.js">
           </script>
         </body>
