@@ -1,7 +1,7 @@
 body {
     /* font-family: 'quicksandregular'; */
     /*font-family: 'cantarellregular';*/
-    font-family: 'Geomanist-Book';
+    font-family: 'Wotfard-Bold-Italic';
     padding-top: 70px;
     background-color: white;
     /* background-image: repeating-linear-gradient(0deg, #fafafa, #fafafa 1px, white 2px, white 4px); */
@@ -35,7 +35,7 @@ body {
 .navbar-new .navbar-brand:hover,
 .navbar-new .navbar-brand:focus {
     /* font-family: 'Inconsolata-Bold'; */
-    font-family: 'Geomanist-Bold';
+    font-family: 'Wotfard-Bold-Italic';
     /* font-family: 'nemoymedium'; */
     color: black;
 }
